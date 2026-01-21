@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PDFs (optional - remove these lines if you want PDFs in repo)
+*.pdf
+
+# Package files
+package-lock.json
