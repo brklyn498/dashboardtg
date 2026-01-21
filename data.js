@@ -135,13 +135,13 @@ const DASHBOARD_DATA = {
         { month: "Август 2024 / August 2024", mentions: 11, cumulativeReach: 257080, newSubscribers: 86, mentionsType: "11 каналов / 11 channels" }
     ],
 
-    // Top/Popular Posts with Telegram links (ordered by popularity)
+    // Top/Popular Posts with Telegram links (ordered by popularity/views)
     topPosts: [
-        { id: "#766", postId: "766", url: "https://t.me/shshermatov/766", date: "Jan 2025", views: 0, reactions: 0 },
-        { id: "#765", postId: "765", url: "https://t.me/shshermatov/765", date: "Jan 2025", views: 0, reactions: 0 },
-        { id: "#764", postId: "764", url: "https://t.me/shshermatov/764", date: "Jan 2025", views: 0, reactions: 0 },
-        { id: "#768", postId: "768", url: "https://t.me/shshermatov/768", date: "Jan 2025", views: 0, reactions: 0 },
-        { id: "#769", postId: "769", url: "https://t.me/shshermatov/769", date: "Jan 2025", views: 0, reactions: 0 }
+        { id: "#766", postId: "766", url: "https://t.me/shshermatov/766", date: "31 Dec 2025", views: 13700, viewsDisplay: "13.7K" },
+        { id: "#765", postId: "765", url: "https://t.me/shshermatov/765", date: "25 Dec 2025", views: 8420, viewsDisplay: "8.42K" },
+        { id: "#764", postId: "764", url: "https://t.me/shshermatov/764", date: "24 Dec 2025", views: 7410, viewsDisplay: "7.41K" },
+        { id: "#768", postId: "768", url: "https://t.me/shshermatov/768", date: "1 Jan 2026", views: 7100, viewsDisplay: "7.1K" },
+        { id: "#769", postId: "769", url: "https://t.me/shshermatov/769", date: "14 Jan 2026", views: 2870, viewsDisplay: "2.87K" }
     ],
 
     // Telegram channel for embeds
