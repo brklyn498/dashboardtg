@@ -135,15 +135,17 @@ const DASHBOARD_DATA = {
         { month: "Август 2024 / August 2024", mentions: 11, cumulativeReach: 257080, newSubscribers: 86, mentionsType: "11 каналов / 11 channels" }
     ],
 
-    // Top/Popular Posts
+    // Top/Popular Posts with Telegram links (ordered by popularity)
     topPosts: [
-        { id: "#706", date: "01 Dec 2024, 18:45", views: 12713, reactions: 34, forwards: 0 },
-        { id: "#706", date: "29 Nov 2024, 15:02", views: 8411, reactions: 28, forwards: 0 },
-        { id: "#705", date: "01 Dec 2024, 17:50", views: 7402, reactions: 14, forwards: 0 },
-        { id: "#700", date: "11 Dec 2024, 13:01", views: 7091, reactions: 33, forwards: 0 },
-        { id: "#707", date: "05 Dec 2024, 10:32", views: 4947, reactions: 15, forwards: 0 },
-        { id: "#709", date: "14 Jan 2025", views: 2952, reactions: 44, forwards: 0 }
-    ]
+        { id: "#766", postId: "766", url: "https://t.me/shshermatov/766", date: "Jan 2025", views: 0, reactions: 0 },
+        { id: "#765", postId: "765", url: "https://t.me/shshermatov/765", date: "Jan 2025", views: 0, reactions: 0 },
+        { id: "#764", postId: "764", url: "https://t.me/shshermatov/764", date: "Jan 2025", views: 0, reactions: 0 },
+        { id: "#768", postId: "768", url: "https://t.me/shshermatov/768", date: "Jan 2025", views: 0, reactions: 0 },
+        { id: "#769", postId: "769", url: "https://t.me/shshermatov/769", date: "Jan 2025", views: 0, reactions: 0 }
+    ],
+
+    // Telegram channel for embeds
+    telegramChannel: "shshermatov"
 };
 
 // Translations for bilingual support
@@ -184,6 +186,7 @@ const TRANSLATIONS = {
         engagementTrend: "Динамика вовлеченности (ER%)",
         subscriberGrowth: "Привлечение подписчиков",
         topPosts: "Популярные публикации",
+        mostPopular: "Самые популярные публикации",
         mentionsByCountry: "Упоминания по странам",
         mentionsByType: "Упоминания по типу",
         networkStats: "Входящие и исходящие упоминания",
@@ -237,6 +240,7 @@ const TRANSLATIONS = {
         engagementTrend: "Engagement Rate Trend (ER%)",
         subscriberGrowth: "Subscriber Acquisition",
         topPosts: "Popular Posts",
+        mostPopular: "Most Popular Posts",
         mentionsByCountry: "Mentions by Country",
         mentionsByType: "Mentions by Type",
         networkStats: "Incoming & Outgoing Mentions",
